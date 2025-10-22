@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de Confidentialité - SurvivorFit</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .app-name {
+            text-align: center;
+            color: #764ba2;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        
+        .last-updated {
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+        
+        h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        h2::before {
+            content: "🔒";
+            margin-right: 10px;
+            font-size: 0.9em;
+        }
+        
+        h3 {
+            color: #764ba2;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        .highlight-box {
+            background: #f0f4ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+        
+        .highlight-box strong {
+            color: #667eea;
+        }
+        
+        .contact {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 40px;
+            text-align: center;
+        }
+        
+        .contact a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-bottom: 2px solid white;
+        }
+        
+        .language-switch {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .language-switch a {
+            color: white;
+            text-decoration: none;
+            background: rgba(255,255,255,0.2);
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        
+        .language-switch a:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="language-switch">
+        <a href="en.html">🇬🇧 English Version</a>
+    </div>
+    
+    <div class="container">
+        <h1>Politique de Confidentialité</h1>
+        <p class="app-name">SurvivorFit</p>
+        <p class="last-updated">Dernière mise à jour : 20 janvier 2025</p>
+        
+        <div class="highlight-box">
+            <strong>En résumé :</strong> SurvivorFit lit vos données Apple Health (pas, exercice, calories) pour gamifier votre activité quotidienne. Toutes les données restent sur votre appareil. Aucune information n'est transmise à l'extérieur. Vous pouvez supprimer toutes vos données à tout moment.
+        </div>
+        
+        <h2>1. Introduction</h2>
+        <p>
+            Bienvenue sur SurvivorFit. Nous respectons votre vie privée et nous nous engageons à protéger vos données personnelles. Cette politique de confidentialité vous informe sur la manière dont nous traitons vos données lorsque vous utilisez notre application mobile.
+        </p>
+        <p>
+            <strong>Éditeur :</strong> SurvivorFit<br>
+            <strong>Contact :</strong> support@survivorfit.app
+        </p>
+        
+        <h2>2. Données Collectées</h2>
+        
+        <h3>2.1 Données Apple Health (HealthKit)</h3>
+        <p>
+            SurvivorFit demande l'autorisation de <strong>lire uniquement</strong> les données suivantes depuis Apple Health :
+        </p>
+        <ul>
+            <li><strong>Nombre de pas</strong> (Step Count) : pour calculer votre progression quotidienne</li>
+            <li><strong>Minutes d'exercice</strong> (Apple Exercise Time) : pour évaluer votre activité physique</li>
+            <li><strong>Calories actives</strong> (Active Energy Burned) : pour affiner le calcul d'énergie</li>
+            <li><strong>Séances d'entraînement</strong> (Workouts) : pour bonus et badges</li>
+        </ul>
+        
+        <h3>2.2 Données de Jeu</h3>
+        <p>
+            L'application génère et stocke localement :
+        </p>
+        <ul>
+            <li>État du joueur (niveau d'énergie, XP, streak)</li>
+            <li>Historique quotidien d'activité (snapshots)</li>
+            <li>Badges débloqués</li>
+            <li>Préférences (objectifs personnalisés, mode de jeu sélectionné)</li>
+            <li>Personnalisation de l'avatar</li>
+        </ul>
+        
+        <h3>2.3 Données Non Collectées</h3>
+        <p>
+            SurvivorFit <strong>NE collecte PAS</strong> :
+        </p>
+        <ul>
+            <li>Votre identité (nom, prénom, email sauf autorisation explicite)</li>
+            <li>Votre localisation GPS</li>
+            <li>Vos contacts</li>
+            <li>Vos photos</li>
+            <li>Vos données de paiement</li>
+        </ul>
+        
+        <h2>3. Utilisation des Données</h2>
+        
+        <h3>3.1 Finalités</h3>
+        <p>
+            Les données Apple Health lues par SurvivorFit sont utilisées exclusivement pour :
+        </p>
+        <ol>
+            <li><strong>Gamification</strong> : Calculer votre niveau d'énergie, XP, et progression dans les modes de jeu</li>
+            <li><strong>Motivation</strong> : Générer des statistiques, streaks, et badges pour vous encourager</li>
+            <li><strong>Visualisation</strong> : Afficher votre activité sous forme de graphiques et résumés</li>
+        </ol>
+        
+        <h3>3.2 Aucun Usage Commercial</h3>
+        <p>
+            Vos données de santé <strong>ne sont jamais</strong> :
+        </p>
+        <ul>
+            <li>Vendues à des tiers</li>
+            <li>Partagées avec des annonceurs</li>
+            <li>Utilisées pour du ciblage publicitaire</li>
+            <li>Transmises à des sociétés d'assurance</li>
+        </ul>
+        
+        <h2>4. Stockage et Sécurité</h2>
+        
+        <h3>4.1 Stockage Local</h3>
+        <div class="highlight-box">
+            <strong>Important :</strong> Toutes vos données sont stockées localement sur votre iPhone/iPad via Core Data. Elles ne quittent jamais votre appareil.
+        </div>
+        
+        <h3>4.2 Pas de Serveurs Externes</h3>
+        <p>
+            SurvivorFit fonctionne en mode <strong>100% offline</strong>. Il n'existe aucun serveur backend collectant vos informations. L'application ne nécessite pas de connexion internet pour fonctionner (sauf pour télécharger l'app initalement).
+        </p>
+        
+        <h3>4.3 Chiffrement</h3>
+        <p>
+            Les données stockées localement bénéficient du chiffrement natif d'iOS. Si votre appareil est protégé par un code ou Face ID/Touch ID, vos données sont chiffrées.
+        </p>
+        
+        <h2>5. Partage de Données</h2>
+        <p>
+            <strong>Aucune donnée n'est partagée</strong> avec des tiers. SurvivorFit ne contient :
+        </p>
+        <ul>
+            <li>Aucun tracker analytique (Google Analytics, Mixpanel, etc.)</li>
+            <li>Aucun SDK de réseaux sociaux</li>
+            <li>Aucun service de publicité</li>
+            <li>Aucune connexion à des services cloud</li>
+        </ul>
+        
+        <h2>6. Vos Droits</h2>
+        
+        <h3>6.1 Droit d'Accès</h3>
+        <p>
+            Vous pouvez consulter toutes vos données directement dans l'application via l'onglet Historique et Réglages.
+        </p>
+        
+        <h3>6.2 Droit de Suppression</h3>
+        <p>
+            Vous pouvez supprimer <strong>toutes vos données</strong> à tout moment :
+        </p>
+        <ol>
+            <li>Ouvrez l'application SurvivorFit</li>
+            <li>Allez dans <strong>Réglages</strong></li>
+            <li>Faites défiler jusqu'à <strong>"Données et Confidentialité"</strong></li>
+            <li>Appuyez sur <strong>"Réinitialiser toutes les données"</strong></li>
+            <li>Confirmez l'action</li>
+        </ol>
+        
+        <h3>6.3 Droit de Révoquer l'Accès HealthKit</h3>
+        <p>
+            Pour révoquer l'accès de SurvivorFit à Apple Health :
+        </p>
+        <ol>
+            <li>Ouvrez l'app <strong>Santé</strong> (Health) d'Apple</li>
+            <li>Appuyez sur votre photo de profil en haut à droite</li>
+            <li>Sélectionnez <strong>"Confidentialité"</strong></li>
+            <li>Appuyez sur <strong>"SurvivorFit"</strong></li>
+            <li>Désactivez les autorisations souhaitées</li>
+        </ol>
+        
+        <h2>7. Notifications</h2>
+        <p>
+            SurvivorFit envoie des notifications locales (générées directement par votre appareil) pour :
+        </p>
+        <ul>
+            <li>Vous rappeler vos objectifs quotidiens</li>
+            <li>Vous encourager à maintenir votre streak</li>
+            <li>Vous féliciter pour vos accomplissements</li>
+        </ul>
+        <p>
+            Vous pouvez désactiver ces notifications à tout moment dans les Réglages de l'app ou dans les Réglages iOS.
+        </p>
+        
+        <h2>8. Mineurs</h2>
+        <p>
+            SurvivorFit est conçu pour un public général. Si vous avez moins de 13 ans, veuillez obtenir le consentement parental avant d'utiliser l'application.
+        </p>
+        
+        <h2>9. Modifications de la Politique</h2>
+        <p>
+            Nous pouvons mettre à jour cette politique de confidentialité occasionnellement. Toute modification sera notifiée via une mise à jour de l'application et la date de "Dernière mise à jour" en haut de cette page sera actualisée.
+        </p>
+        
+        <h2>10. Conformité RGPD (Europe)</h2>
+        <p>
+            Si vous résidez dans l'Espace Économique Européen (EEE), vous bénéficiez des droits suivants en vertu du RGPD :
+        </p>
+        <ul>
+            <li>Droit d'accès à vos données</li>
+            <li>Droit de rectification</li>
+            <li>Droit à l'effacement ("droit à l'oubli")</li>
+            <li>Droit à la limitation du traitement</li>
+            <li>Droit à la portabilité des données</li>
+            <li>Droit d'opposition</li>
+        </ul>
+        <p>
+            Étant donné que toutes vos données sont stockées localement et que nous ne collectons aucune donnée personnelle identifiable, ces droits sont automatiquement respectés.
+        </p>
+        
+        <h2>11. Conformité PIPEDA (Canada)</h2>
+        <p>
+            SurvivorFit respecte les principes de la Loi sur la protection des renseignements personnels et les documents électroniques (PIPEDA) en matière de collecte, d'utilisation et de divulgation de renseignements personnels.
+        </p>
+        
+        <div class="contact">
+            <h3 style="color: white; margin-bottom: 15px;">📧 Contact</h3>
+            <p>
+                Pour toute question concernant cette politique de confidentialité ou vos données personnelles, contactez-nous :
+            </p>
+            <p>
+                <strong>Email :</strong> <a href="mailto:support@survivorfit.app">support@survivorfit.app</a>
+            </p>
+        </div>
+        
+        <p style="text-align: center; margin-top: 40px; color: #999; font-size: 0.9em;">
+            © 2025 SurvivorFit. Tous droits réservés.
+        </p>
+    </div>
+</body>
+</html>
